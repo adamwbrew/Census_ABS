@@ -1,3 +1,5 @@
+# Census API Data - Annual Business Survey 2019
+
 ## Table of Contents
 - [Description of Data](#Description-of-Data)
     - [Company Summary](#Company-Summary)
@@ -6,11 +8,11 @@
     - [Technology Characteristics of Businesses](#Technology-Characteristics-of-Businesses)
 - [Analysis and Visualizations](#Analysis-and-Visualizations)
     - [ETL](#ETL)
-    - [Census_NoteBook.ipynb](Census_NoteBook.ipynb)
+    - [Census NoteBook](Census-NoteBook)
     - [Project Report](#Project-Report)
-- [Secondary Files](#Secondary-Files)
-    - [names-list.csv](#names-list.csv)
-    - [nst-est2019-01.xlsx](#nst-est2019-01.xlsx)
+- [Files](#Files)
+    - [nameslist](#nameslist)
+    - [nstest201901](#nstest201901)
 - [Configuration](#Configuration)
 
 ## Description of Data
@@ -31,19 +33,23 @@ The Technology Characteristics of Businesses dataset provides data about busines
 
 ## Analysis and Visualizations
 ### ETL
-“ETL” is a Jupyter Notebook that details the ordered steps taken to clean, transform, and merge the data using pandas. The notebook uses an API key that’s being pulled from the config.py file to call the Census API data. The steps should be followed in order and variable names should remain consistent. It is important that the secondary documents and config.py file with the API key are in the same directory and named as is when working through the ETL and code.
+“ETL” (Extract, Transform, Load) is a Jupyter Notebook that details the ordered steps taken to clean, transform, and merge the data using pandas. The notebook uses an API key that’s being pulled from the config.py file to call the Census API data. The steps should be followed in order and variable names should remain consistent. It is important that the secondary documents and config.py file with the API key are in the same directory and named as is when working through the ETL and code.
 
-### Census_NoteBook.ipynb
+### Census NoteBook
 “Census_NoteBook.ipynb” is a Jupyter Notebook with all code used for the project analysis and visual creation using pandas, matplotlib, and seaborn. As noted in the ETL, it is important that the secondary documents are in the same directory and named as is when working through the code. This notebook has descriptions and comments for context along the way but please refer to “Project Report” for deeper insight.
 
 ### Project Report
-“Project Report” is a word document of our formal technical report that explains our research and findings. The report cites our sources, lists our initial questions, the analysis process, and our conclusions. The visuals made in “Census_NoteBook.ipynb” are the focal point of our analysis and conclusion. 
+“Project Report” is a PDF document of our formal technical report that explains our research and findings. The report cites our sources, lists our initial questions, the analysis process, and our conclusions. The visuals made in “Census_NoteBook.ipynb” are the focal point of our analysis and conclusion. 
 
 
-## Secondary Files
+## Files
+“Files” folder contains the two secondary files needed for the ETL and code. It is important that the secondary documents are in the same directory and named as is when working through the ETL and code.
 
-### names-list.csv
+### nameslist
 “names-list.csv” is a csv file with each state’s full name and their abbreviation. This is used for the merge in the ETL.
 
-### nst-est2019-01.xlsx
+### nstest201901
 “nst-est2019-01.xlsx” is an excel file from the census bureau with state and region population from 2010 to 2019. This is used for the merge in the ETL.
+
+## Configuration
+“Configuration” folder contains a .gitignore file to a config.py file that holds a sensitive API key. An API key is needed to access the census bureau data. Please message the owner of this file to request their config.py file. You may also request your own API key, free of charge, from the census bureau and use that.
