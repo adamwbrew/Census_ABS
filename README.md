@@ -10,7 +10,7 @@
     - [Technology Characteristics of Businesses](#Technology-Characteristics-of-Businesses)
 - [Analysis and Visualizations](#Analysis-and-Visualizations)
     - [ETL](#ETL)
-    - [Census Jupyter Notebook](Census-Jupyter-Notebook)
+    - [Census Notebook](#Census-Notebook)
     - [Project Report](#Project-Report)
 - [Files](#Files)
     - [nameslist](#nameslist)
@@ -37,7 +37,7 @@ The Technology Characteristics of Businesses dataset provides data about busines
 ### ETL
 “ETL” (Extract, Transform, Load) is a Jupyter Notebook that details the ordered steps taken to clean, transform, and merge the data using pandas. The notebook uses an API key that’s being pulled from the config.py file to call the Census API data. The steps should be followed in order and variable names should remain consistent. It is important that the secondary documents and config.py file with the API key are in the same directory and named as is when working through the ETL and code.
 
-### Census Jupyter Notebook
+### Census Notebook
 “Census_NoteBook.ipynb” is a Jupyter Notebook with all code used for the project analysis and visual creation using pandas, matplotlib, and seaborn. As noted in the ETL, it is important that the secondary documents are in the same directory and named as is when working through the code. This notebook has descriptions and comments for context along the way but please refer to “Project Report” for deeper insight.
 
 ### Project Report
