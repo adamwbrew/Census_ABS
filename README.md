@@ -12,6 +12,7 @@
     - [ETL](#ETL)
     - [Census Notebook](#Census-Notebook)
     - [Project Report](#Project-Report)
+    - [Project Presentation](#Project-Presentation)
 - [Files](#Files)
     - [nameslist](#nameslist)
     - [nstest201901](#nstest201901)
@@ -43,6 +44,8 @@ The Technology Characteristics of Businesses dataset provides data about busines
 ### Project Report
 “Project Report” is a PDF document of our formal technical report that explains our research and findings. The report cites our sources, lists our initial questions, the analysis process, and our conclusions. The visuals made in “Census_NoteBook.ipynb” are the focal point of our analysis and conclusion. 
 
+### Project Presentation
+“Project Presentation” is a PDF document of our outlines all important visuals answering questions relative to "Project Report". The report cites our sources, lists our initial questions, and demostrates answers questions with visuals. The visuals are made in “Census_NoteBook.ipynb” and are the focal point of our analysis and conclusion. 
 
 ## Files
 “Files” folder contains the two secondary files needed for the ETL and code. It is important that the secondary documents are in the same directory and named as is when working through the ETL and code.
