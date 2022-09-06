@@ -1,4 +1,6 @@
-# Census API Data - Annual Business Survey 2019
+# Census API Data - Annual Business Survey 2019- Analysis & Visualizations
+
+![Census logo](https://user-images.githubusercontent.com/104226913/188526553-3b9d88f4-2783-4f65-ac42-921340af1ef7.png)
 
 ## Table of Contents
 - [Description of Data](#Description-of-Data)
