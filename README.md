@@ -1,5 +1,5 @@
 ## Table of Contents
-- [Description of Data](#Description_of_Data)
+- [Description of Data](#Description-of-Data)
     - [Company Summary](#Company_Summary)
     - [Characteristics of Businesses](#Characteristics_of_Businesses)
     - [Characteristics of Business Owners](#Characteristics_of_Business_Owners)
